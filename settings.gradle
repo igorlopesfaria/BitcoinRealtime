@@ -1,0 +1,2 @@
+rootProject.name = "BitcoinRealTime"
+include ':app'
