@@ -9,7 +9,7 @@ fun Float.printTwoDecimals(): String = "%.2f".format(this)
 fun Long.printMillisAsSeconds(): String = millisToSeconds().printTwoDecimals()
 
 val PT_BR_LOCALE: Locale = Locale.forLanguageTag("pt-BR")
-const val PATTERN_FULL_DATETIME = "dd MMM yyyy, HH:mm"
+const val PATTERN_FULL_DATETIME = "dd MMM yyyy, HH:mm:ss"
 
 val dateFormat = SimpleDateFormat(
     PATTERN_FULL_DATETIME,

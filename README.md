@@ -1,4 +1,4 @@
 # BitcoinRealtime
 
-![](demo_video.gif)
+![](example_app.gif)
 

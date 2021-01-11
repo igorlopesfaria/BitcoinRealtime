@@ -41,6 +41,7 @@ class TradeActivity : AppCompatActivity() {
 
     private fun updateData(tradeItem: TradeItem) {
         binding.output.text = tradeItem.priceFormattedWithSymbol()
+        binding.date.text = tradeItem.timeDateFormatted()
     }
 
     private fun showError() {

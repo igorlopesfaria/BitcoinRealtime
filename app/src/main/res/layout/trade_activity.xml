@@ -28,5 +28,17 @@
         android:gravity="center"
         android:textSize="18dp"
         android:id="@+id/output" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/output"
+        android:layout_marginTop="16dp"
+        android:textStyle="italic"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="14dp"
+        android:id="@+id/date" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

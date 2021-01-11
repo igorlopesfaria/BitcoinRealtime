@@ -23,7 +23,7 @@ class TradeItem(
     fun priceFormattedWithSymbol(): String =
         price.formatMoney()
 
-    fun startDateFormatted(): String = dateFormat.format(time)
+    fun timeDateFormatted(): String = dateFormat.format(time)
 }
 
 enum class TradeSymbolType(val type: String) {
