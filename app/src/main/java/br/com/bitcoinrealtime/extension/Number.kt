@@ -10,6 +10,6 @@ fun Int.formattedDotNumber(): String = formatter.format(this).replace(',', '.')
 
 fun Long.formattedDotNumber(): String = formatter.format(this).replace(',', '.')
 
-fun Long.formatMoney(): String = NumberFormat.getCurrencyInstance(Locale("pt", "BR")).format(this / 100.0)
+fun Long.formatMoney(): String = NumberFormat.getCurrencyInstance(Locale("pt", "BR")).format(this)
 
 fun Long.formatMoneyWithoutSymbol(): String = NumberFormat.getCurrencyInstance(Locale("pt", "BR")).format(this / 100.0).replace("R$", "")
