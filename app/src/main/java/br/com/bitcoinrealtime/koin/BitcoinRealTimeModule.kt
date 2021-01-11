@@ -22,8 +22,6 @@ val appModule = module {
 fun provideTradeViewModel(repository: TradeRepository): TradeViewModel =
     TradeViewModel(repository)
 
-
-
 fun createTradeService() = TradeService()
 
 private fun createOkttp() =
